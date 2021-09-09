@@ -19,4 +19,29 @@ Completed few projects as a web-developer.
 But my purpose is to become a true JavaScript developer.
 Now I am learning JavaScript and React.
 	
+### 4. Technologies, that I know
+* HTML5
+* CSS3 (flexbox, grid)
+* SCSS
+* JavaScript
+* BEM
+* Bootstrap (just grid)
+* Git
+* Adobe Photoshop and Figma
+	
+### 5. Sample of code
+Sample of code here:
+
+```javascript
+const foo = (s) => {
+  let result;
+  if (s.length % 2 !== 0) {
+    result = s[Math.ceil(s.length/2) - 1];
+  } else {
+    result = `${s[s.length/2 - 1]}${s[s.length/2]}`;
+  }
+  console.log(result);
+  output.textContent = result;
+};
+```
 
