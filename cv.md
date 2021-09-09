@@ -45,3 +45,25 @@ const foo = (s) => {
 };
 ```
 
+### 6. Experience
+
+As a web-developer I made several commercial projects:
+
+Responsive coding from figma to html of [accounting company site](https://irrbis38.github.io/BuhTechnologies/) (technologies - HTML, SCSS, JavaScript, WordPress):  
+[sorce code](https://github.com/irrbis38/BuhTechnologies)
+
+Responsive coding from figma to html of [Law firm's site](https://irrbis38.github.io/testWebFocus/) (technologies - HTML, CSS, JavaScript, jQuery):  
+[sorce code](https://github.com/irrbis38/testWebFocus)
+
+Responsive coding from figma to html of [Cleaning company's site](https://irrbis38.github.io/https-chysto.by-/), landing to CMS Wordpress (technologies - HTML, CSS, JavaScript, jQuery, Wordpress):  
+[sorce code](https://github.com/irrbis38/https-chysto.by-)
+
+### 7. Education
+I acquired all my knowledge on my own, reading books, manuals and watching video courses.
+In the process of studying, I actively used the Internet resources [freecodecamp.org](https://www.freecodecamp.org/), [w3schools.com](https://www.w3schools.com/) and [JavaScript.RU](https://learn.javascript.ru/), as well as video courses from the [Computer Training Center "Specialist" at The Bauman Moscow State Technical University](http://en.specialist.ru/).
+
+### 8. English level
+As the test results on training.by showed, my English level is A2.
+My spoken English isn't good yet. I must study and practice more.
+But right now I can read documentation and technical literature, also I can listen to simple podcasts.
+Now I keep to improve my English. I read adapted B2-level literature, take the video course ["OK English"](https://www.youtube.com/user/elenavogni) and listening to [Teacher Luke's podcasts](https://teacherluke.co.uk/).
