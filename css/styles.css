@@ -259,5 +259,28 @@ a {
 }
 
 .works__source {
+  font-size: 14px;
   text-decoration: underline;
+}
+
+/* code styles */
+
+.code {
+  padding-top: 40px;
+}
+
+.code__title {
+  margin-bottom: 0;
+}
+
+.code__wrapper {
+  margin-left: 50px;
+}
+
+pre {
+  margin: 0 !important;
+}
+
+code {
+  padding: 0 !important;
 }

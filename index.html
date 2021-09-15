@@ -6,6 +6,14 @@
     <title>CV - Vasil Iliukhin</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poly&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-light.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -205,6 +213,29 @@
         </div>
       </div>
     </section>
+
+    <section class="code">
+      <div class="container">
+        <div class="code__title title">Example Of Code</div>
+        <div class="code__wrapper">
+          <pre>
+            <code class="javascript">
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((el) => {
+    hljs.highlightElement(el);
+  });
+});
+            </code>
+          </pre>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
 
   </body>
 </html>
