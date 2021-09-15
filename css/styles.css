@@ -47,6 +47,11 @@ a {
   color: inherit;
 }
 
+.external__link {
+  width: 10px;
+  height: 10px;
+}
+
 .title {
   margin-bottom: 30px;
   font-family: "Poly", serif;
@@ -283,4 +288,37 @@ pre {
 
 code {
   padding: 0 !important;
+}
+
+/* footer styles */
+
+.footer {
+  padding: 30px 0;
+  background-color: #efefef;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__rsschool {
+  position: relative;
+  width: 50px;
+}
+
+.footer__rsschool img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.footer__rsschool a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
 }
