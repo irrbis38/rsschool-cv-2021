@@ -19,12 +19,19 @@
   <body>
     <header class="header">
       <div class="container">
+        <div class="header__burger"></div>
+
         <div class="header__image">
           <img src="./img/my-photo.jpg" alt="my photo" />
         </div>
         <div class="header__wrapper">
           <h1 class="header__name">Vasil Iliukhin</h1>
           <h2 class="header__profession">Frontend Developer</h2>
+
+          <div class="header__picture">
+            <img src="./img/my-photo.jpg" alt="my photo" />
+          </div>
+
           <div class="header__info">
             <ul class="header__contacts">
               <li class="header__item">
@@ -78,12 +85,19 @@
               <h4 class="header__title">Technical Skills</h4>
               <ul>
                 <li class="header__item">HTML5</li>
-                <li class="header__item">CSS3 (include flexbox, grid)</li>
+                <li class="header__item">CSS3 (flexbox, grid)</li>
                 <li class="header__item">SCSS</li>
                 <li class="header__item">JavaScript</li>
                 <li class="header__item">BEM</li>
                 <li class="header__item">Bootstrap (just grid)</li>
               </ul>
+
+              <div class="header__english">
+                <h4 class="header__title">English Level</h4>
+                <ul>
+                  <li class="header__item">B1 Low Intermediate</li>
+                </ul>
+              </div>
             </div>
 
             <div class="header__tools">
@@ -94,13 +108,6 @@
                 <li class="header__item">Figma</li>
                 <li class="header__item">Adobe Photoshop</li>
                 <li class="header__item">Wordpress</li>
-              </ul>
-            </div>
-
-            <div class="header__english">
-              <h4 class="header__title">English Level</h4>
-              <ul>
-                <li class="header__item">A2</li>
               </ul>
             </div>
           </div>
@@ -121,7 +128,7 @@
             href="https://www.youtube.com/watch?v=hMhVuTwLqS0"
             target="_blank"
             class="about__link"
-            >my video presentation here<img
+            >my video presentation here&nbsp;<img
               src="./img/link.svg"
               alt=""
               class="external__link" /></a
@@ -160,6 +167,48 @@
               As the head of the laboratory, I organize the maintenance and
               repair of CNC machines.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills block">
+      <div class="container">
+        <h3 class="block__title title">Skills & Tools</h3>
+
+        <div class="block__item">
+          <div class="block__right">
+            <p class="block__name">Technical Skills</p>
+            <ul class="block__list">
+              <li>HTML5</li>
+              <li>CSS3 (flexbox, grid)</li>
+              <li>SCSS</li>
+              <li>JavaScript</li>
+              <li>BEM</li>
+              <li>Bootstrap (just grid)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="block__item">
+          <div class="block__right">
+            <p class="block__name">English Level</p>
+            <ul class="block__list">
+              <li>B1 Low Intermediate</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="block__item">
+          <div class="block__right">
+            <p class="block__name">Tools</p>
+            <ul class="block__list">
+              <li>VS Code</li>
+              <li>GitHub</li>
+              <li>Figma</li>
+              <li>Adobe Photoshop</li>
+              <li>Wordpress</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -294,6 +343,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
             </code>
           </pre>
+
+          <pre>
+            <code class="javascript">
+const makeUser = (name, age) => {
+  return {
+    name: name,
+    age: age
+  };
+}
+
+let user = makeUser("John", 30);
+console.log(user.name); // John
+            </code>
+          </pre>
         </div>
       </div>
     </section>
@@ -301,7 +364,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     <footer class="footer">
       <div class="container">
         <a href="https://github.com/irrbis38" class="footer__link"
-          >My GitHub <img src="./img/link.svg" alt="" class="external__link"
+          >My GitHub&nbsp;<img
+            src="./img/link.svg"
+            alt=""
+            class="external__link"
         /></a>
         <p class="footer__year">2021</p>
         <div class="footer__rsschool">
