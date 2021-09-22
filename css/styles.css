@@ -149,7 +149,7 @@ a:hover {
 
 /* ------------------- */
 .header__burger {
-  display: none;
+  /* display: none; */
   position: absolute;
   top: 25px;
   right: 15px;
@@ -299,6 +299,7 @@ body.lock {
 }
 
 .about__text {
+  margin-bottom: 20px;
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -309,8 +310,21 @@ body.lock {
   margin-left: 5px;
 }
 
-.about__link {
-  text-decoration: underline;
+.about__frame {
+  position: relative;
+  width: 80%;
+  padding-top: 45%;
+
+  width: 560px;
+  padding-top: 315px;
+}
+
+.about__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* block styles */
@@ -544,6 +558,11 @@ code {
 
   .header__burger {
     display: block;
+  }
+
+  .about__frame {
+    width: 80%;
+    padding-top: 45%;
   }
 }
 

@@ -29,7 +29,7 @@
           <img src="./img/up-arrow.svg" alt="" />
         </div>
 
-        <div class="burger__nav">
+        <nav class="burger__nav">
           <a href="#about" class="burger__link">About</a>
           <a href="#experience" class="burger__link">Work Experience</a>
           <a href="#skills" class="burger__link skills-and-tools"
@@ -38,11 +38,11 @@
           <a href="#education" class="burger__link">Education</a>
           <a href="#examples" class="burger__link">Work Examples</a>
           <a href="#code" class="burger__link">Example Of Code</a>
-        </div>
+        </nav>
 
-        <div class="header__image">
+        <figure class="header__image">
           <img src="./img/my-photo.jpg" alt="my photo" />
-        </div>
+        </figure>
         <div class="header__wrapper">
           <h1 class="header__name">Vasil Iliukhin</h1>
           <h2 class="header__profession">Frontend Developer</h2>
@@ -134,7 +134,7 @@
       </div>
     </header>
 
-    <section class="about">
+    <main class="about">
       <div class="container">
         <h2 class="about__title title" id="about">About</h2>
         <p class="about__text">
@@ -142,21 +142,21 @@
           Belarus.<br />
           Start web-development in 2020. Web-developer with technical education.
           Stack: JS, CSS, HTML.<br />
-          You can watch
-          <a
-            href="https://www.youtube.com/watch?v=hMhVuTwLqS0"
-            target="_blank"
-            class="about__link"
-            >my video presentation here&nbsp;<img
-              src="./img/link.svg"
-              alt=""
-              class="external__link" /></a
-          >.
         </p>
+        <div class="about__frame">
+          <iframe
+            class="about__video"
+            src="https://www.youtube.com/embed/hMhVuTwLqS0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
-    </section>
+    </main>
 
-    <section class="experience block" id="experience">
+    <article class="experience block" id="experience">
       <div class="container">
         <h3 class="block__title title">Work Experience</h3>
         <div class="block__item">
@@ -189,7 +189,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </article>
 
     <section class="skills block" id="skills">
       <div class="container">
